@@ -18,7 +18,7 @@ def multiple_of_five(number):
 
 
 def divisible_number(number):
-    if number < 1:
+    if number < 1 or number > 100:
         raise NumberNotInValidRange()
 
     if multiple_of_three_and_five(number):

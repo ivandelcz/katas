@@ -83,3 +83,8 @@ def test_rejects_number_0():
 def test_rejects_negative_numbers():
     with pytest.raises(NumberNotInValidRange):
         divisible_number(-1)
+
+
+def test_rejects_numbers_greater_than_100():
+    with pytest.raises(NumberNotInValidRange):
+        divisible_number(101)
