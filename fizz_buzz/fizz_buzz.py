@@ -5,10 +5,14 @@ def multiple_of_three(number):
     return number % 3 == 0
 
 
+def multiple_of_five(number):
+    return number % 5 == 0
+
+
 def divisible_number(number):
     if multiple_of_three(number):
         return 'fizz'
-    elif number == 5 or number == 10 or number == 20:
+    elif multiple_of_five(number):
         return 'buzz'
     else:
         return str(number)
