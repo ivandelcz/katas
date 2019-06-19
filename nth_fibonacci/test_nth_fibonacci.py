@@ -11,3 +11,15 @@ def test_second_fibonacci_number_is_1():
     result = nth_fibonacci(1)
 
     assert result == 1
+
+
+def test_third_fibonacci_number_is_1():
+    result = nth_fibonacci(2)
+
+    assert result == 1
+
+
+def test_fouth_fibonacci_number_is_2():
+    result = nth_fibonacci(3)
+
+    assert result == 2
