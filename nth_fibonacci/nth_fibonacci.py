@@ -2,4 +2,7 @@
 
 
 def nth_fibonacci(position):
-    return position
+    if position == 0 or position == 1:
+        return position
+    else:
+        return nth_fibonacci(position - 1)
