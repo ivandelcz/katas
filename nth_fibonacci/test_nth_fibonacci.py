@@ -23,3 +23,9 @@ def test_fouth_fibonacci_number_is_2():
     result = nth_fibonacci(3)
 
     assert result == 2
+
+
+def test_fifth_fibonacci_number_is_3():
+    result = nth_fibonacci(4)
+
+    assert result == 3
