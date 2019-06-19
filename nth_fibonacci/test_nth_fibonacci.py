@@ -29,3 +29,8 @@ def test_fifth_fibonacci_number_is_3():
     result = nth_fibonacci(4)
 
     assert result == 3
+
+def test_tenth_fibonacci_number_is_34():
+    result = nth_fibonacci(9)
+
+    assert result == 34
