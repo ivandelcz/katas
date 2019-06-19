@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 
 
+def multiple_of_three(number):
+    return number % 3 == 0
+
+
 def divisible_number(number):
-    if number == 3 or number == 6 or number == 9:
+    if multiple_of_three(number):
         return 'fizz'
     else:
         return str(number)
