@@ -11,3 +11,9 @@ def test_for_number_2_return_as_string():
     result = divisible_number(2)
 
     assert result == '2'
+
+
+def test_for_number_4_return_as_string():
+    result = divisible_number(4)
+
+    assert result == '4'
