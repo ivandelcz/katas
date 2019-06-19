@@ -17,3 +17,9 @@ def test_for_number_4_return_as_string():
     result = divisible_number(4)
 
     assert result == '4'
+
+
+def test_for_number_3_return_fizz():
+    result = divisible_number(3)
+
+    assert result == 'fizz'
