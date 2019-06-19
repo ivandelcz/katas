@@ -59,3 +59,9 @@ def test_for_number_15_return_fizzbuzz():
     result = divisible_number(15)
 
     assert result == 'fizzbuzz'
+
+
+def test_for_number_30_return_fizzbuzz():
+    result = divisible_number(30)
+
+    assert result == 'fizzbuzz'
