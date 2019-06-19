@@ -47,3 +47,9 @@ def test_for_number_10_return_buzz():
     result = divisible_number(10)
 
     assert result == 'buzz'
+
+
+def test_for_number_20_return_buzz():
+    result = divisible_number(20)
+
+    assert result == 'buzz'
