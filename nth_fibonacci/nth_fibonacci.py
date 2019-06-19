@@ -2,4 +2,4 @@
 
 
 def nth_fibonacci(position):
-    return 0
+    return position
