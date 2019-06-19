@@ -1,4 +1,6 @@
-from fizz_buzz import divisible_number
+import pytest
+
+from fizz_buzz import divisible_number, NumberNotInValidRange
 
 
 def test_for_number_1_return_as_string():
@@ -71,3 +73,8 @@ def test_for_number_45return_fizzbuzz():
     result = divisible_number(45)
 
     assert result == 'fizzbuzz'
+
+
+def test_rejects_numbers_lower_than_1():
+    with pytest.raises(NumberNotInValidRange):
+        divisible_number(-1)
