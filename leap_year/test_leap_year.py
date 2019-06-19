@@ -1,4 +1,4 @@
-from leap_year import is_divisible_by_4, is_divisible_by_100
+from leap_year import is_divisible_by_4, is_divisible_by_100, is_divisible_by_400
 
 
 def test_1996_is_divisible_by_four():
@@ -7,3 +7,7 @@ def test_1996_is_divisible_by_four():
 
 def test_1996_is_not_divisible_by_100():
     assert not is_divisible_by_100(1996)
+
+
+def test_1996_is_divisible_by_400():
+    assert not is_divisible_by_400(1996)

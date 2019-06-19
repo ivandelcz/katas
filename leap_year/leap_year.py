@@ -7,3 +7,7 @@ def is_divisible_by_4(year):
 
 def is_divisible_by_100(year):
     return year % 100 == 0
+
+
+def is_divisible_by_400(year):
+    return year % 400 == 0
