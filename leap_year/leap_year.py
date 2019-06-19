@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import sys
 
 
 def is_divisible_by_number(year, number):
@@ -13,3 +14,7 @@ def is_leap_year(year):
             return True
 
     return False
+
+
+if __name__ == "__main__":
+    print(is_leap_year(int(sys.argv[1])))
