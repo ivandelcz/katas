@@ -19,3 +19,11 @@ def test_1996_is_leap_year():
 
 def test_2000_is_leap_year():
     assert is_leap_year(2000)
+
+
+def test_1900_is_common_year():
+    assert not is_leap_year(1900)
+
+
+def test_2001_is_common_year():
+    assert not is_leap_year(2001)
