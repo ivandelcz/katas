@@ -75,6 +75,11 @@ def test_for_number_45return_fizzbuzz():
     assert result == 'fizzbuzz'
 
 
-def test_rejects_numbers_lower_than_1():
+def test_rejects_number_0():
+    with pytest.raises(NumberNotInValidRange):
+        divisible_number(0)
+
+
+def test_rejects_negative_numbers():
     with pytest.raises(NumberNotInValidRange):
         divisible_number(-1)
