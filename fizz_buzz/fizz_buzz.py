@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import sys
 
 
 class NumberNotInValidRange(Exception):
@@ -29,3 +30,7 @@ def divisible_number(number):
         return 'buzz'
     else:
         return str(number)
+
+
+if __name__ == "__main__":
+    print(divisible_number(int(sys.argv[1])))
