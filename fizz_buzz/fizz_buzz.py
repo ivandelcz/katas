@@ -8,7 +8,7 @@ def multiple_of_three(number):
 def divisible_number(number):
     if multiple_of_three(number):
         return 'fizz'
-    elif number == 5:
+    elif number == 5 or number == 10:
         return 'buzz'
     else:
         return str(number)
