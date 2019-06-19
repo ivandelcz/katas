@@ -29,3 +29,9 @@ def test_for_number_6_return_fizz():
     result = divisible_number(6)
 
     assert result == 'fizz'
+
+
+def test_for_number_9_return_fizz():
+    result = divisible_number(9)
+
+    assert result == 'fizz'
