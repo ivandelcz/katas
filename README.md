@@ -16,3 +16,10 @@ For example, 2001 is a typical common year and 1996 is a typical leap year, wher
 
 Write some code to generate the Fibonacci number for the nth position.
 Example: int Fibonacci(int position). The first Fibonacci numbers in the sequence are: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+
+### [Arabic to roman](arabic_to_roman/)
+
+- 1, 2 and 3 become I, II and III respectively.
+- 5 and 10 become V and X respectively.
+- 6 become VI, as symbols are additive.
+- 4 becomes IV, as symbols are used subtractively (in this case subtracting 1 from 5) to avoid repeating a symbol more than three times in a row.
